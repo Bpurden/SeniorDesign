@@ -29,4 +29,4 @@ var benchmarkSchema = new mongoose.Schema({
 
 });
 
-module.exports = mongoose.model('computerspecs', benchmarkSchema);
+module.exports = mongoose.model('benchmarks', benchmarkSchema);

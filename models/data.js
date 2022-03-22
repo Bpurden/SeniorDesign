@@ -21,4 +21,4 @@ var dataSchema = new mongoose.Schema({
   },
 
 });
-module.exports = mongoose.model('benchmarks', dataSchema);
+module.exports = mongoose.model('computerspecs', dataSchema);
