@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgb(27, 25, 25) 0%, rgb(104, 94, 9) 75%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Developer created CSS classes */
+/* top right bottom left */
+
+
+.page-container {
+  background: #eeeeee;
+  max-width: 80%;
+  border-radius: 16px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px auto;
+}
+
+.page-subsection {
+  background-color: white;
+  max-width: 95%;
+  border-radius: 16px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px auto;
+}
+
+/* Navbar START */
+
+.navbar {
+  background-color: white;
+  max-width: 95%;
+  border-radius: 16px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 35px;
+}
+
+.navbar .navbar-links {
+  margin-right: 15px;
+  font-size: 1.5em;
+}
+
+.navbar .navbar-title-link {
+  margin-bottom: "0px";
+  background: rgb(109, 99, 11);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navbar END */
+
+/* Dashboard page START */
+
+.dashboard-page {
+  background-color: white;
+  max-width: 95%;
+  border-radius: 16px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 35px;
+}
+
+.title-panel {
+  margin-bottom: 0px;
+}
+
+/* Dashboard page END */
+
+/* Benchmark View page START */
+
+.benchmark-page {
+  background-color: white;
+  border-radius: 16px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 35px;
+  max-height: 520px;
+}
+
+.benchmark-page-right {
+  background-color: white;
+  border-radius: 16px;
+  padding: 10px 10px 10px 10px;
+  margin: 5px 35px 0px 0px;
+  max-height: 520px;
+}
+
+
+
+
+/* Benchmark View page END */
+
+/* Homepage START */
+
+/* currently unused */
+.home-text {
+  background-color: white;
+  max-width: 95%;
+  border-radius: 16px;
+  text-align: center;
+  padding: 200px 10px 200px 10px;
+  margin: 5px auto;
+}
+
+/* trbl */
+.homepage-subsection {
+  background-color: white;
+  max-width: 95%;
+  border-radius: 16px;
+  padding: 10px 10px 10px 10px;
+  height: 520px;
+}
+
+.homepage-subsection-left {
+  margin: 5px 0px 0px 35px;
+}
+
+.homepage-subsection-right {
+  margin: 5px 35px 0px 0px;
+}
+
+.scoll-overflow{
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
+.recent-uploads-title {
+  position: sticky;
+}
+
+#recent-uploads-hr {
+  width: 90%;
+  border: 1px solid grey;
+  margin: 5px auto 10px auto;
+}
+
+.recent-uploads-container {
+  width: 90%;
+  margin: 5px auto 5px auto;
+  padding: 0px 20px;
+  display: inline-block;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  position: sticky;
+}
+
+.recent-uploads-input {
+  width: 60%;
+  outline: none;
+  margin-left: 5px;
+}
+
+/* Homepage END */
+
+/* Login Page START */
+
+.login-page-container {
+  max-width: 60%;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  padding: 10px 10px 10px 10px;
+  margin: 225px auto;  
+}
+
+#login-div {
+  padding: 5px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 16px;
+  background-color: #f9f9f9;
+  max-width: 100%;
+}
+
+.login-credentials-section {
+  border: 1px solid rgb(167, 167, 167);
+  border-radius: 16px;
+  margin: 5px 220px;
+  padding: 10px 0px;
+}
+
+.login-input {
+  margin: 10px 0px 0px 0px;
+  width: 70%;
+  padding: 12px 20px;
+  /* display: inline-block; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Login Page END */
+
+/* Upload Page START */
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+/* Upload Page END */
+
+.register-input {
+  margin: 5px auto;
+  width: 50%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#login-button {
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#returnMessage {
+  margin-bottom: 0px;
+}
+
+#sign-up-div {
+  padding: 5px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 16px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+}
+
+#sign-up-link:active {
+  color: black;
+}
+
+#register-div {
+  padding: 5px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 16px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+}
+
+
+
+
+
+
+/* EXTRA UTILS FEATURES/PLUGINS */
+
+/* Scrollbar webkit css START */
+
+.reverse-list {
+
+}
+
+/* ul {
+  transform: rotate(180deg);
+}
+ul > li {
+  transform: rotate(-180deg);
+} */
+
+.recent-uploads-list-group {
+  width: 90%;
+  /* border: 1px solid grey; */
+  margin: 5px auto;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+/* Scrollbar webkit css END */
